@@ -15,17 +15,17 @@ const Landing = () => {
           <p className="ven"> Ven a descubrir el verdadero sabor de
             villas de Tezontepec! </p>
         </div>
-        <div className="col-xl-5 d-flex justify-content-center ">
+        <div className="col-xl-6 d-flex justify-content-center ">
           <img className="img" src={img} alt="foto" />
         </div>
         <div className="container-btn col-xl-12">
-        <Button href='/Contact' className="btn-contact"> Contactanos </Button>
+          <Button href='/Contact' className="btn-contact"> Contactanos </Button>
 
         </div>
       </div>
 
 
-<Footer />
+      <Footer />
 
     </div>
   )
