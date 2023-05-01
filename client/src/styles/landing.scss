@@ -1,11 +1,15 @@
 @import "variables";
+.mainContainer{
+    
+    background-color: $Naranja;
+    
 
+}
 .container-landing {
     position: absolute;
     top: 70px;
     left: 11px;
     margin-right: 0px;
-       
         
             h1{
                 color: $White;
@@ -70,7 +74,7 @@
     justify-content: center;
     align-items: center;
     background-color: $Naranja;
-    height: 100vh;
+    // height: 100vh;
 
 }
 
