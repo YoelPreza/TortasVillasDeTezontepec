@@ -4,7 +4,7 @@ import villas from "../img/villas.webp"
 const AboutUs = () => {
   return (
     <div className="container">
-      <div className='row'>
+      <div className='row d-flex justify-content-center'>
         <div className='nosotros col-xl-12'>
           <p> <strong> Acerca de nosotros: </strong></p>
           <p>Somos una tortería mexicana con más de 5 años de experiencia en la elaboración de las mejores tortas al estilo de Villas de Tezontepec.
@@ -15,7 +15,7 @@ const AboutUs = () => {
 
       </div>
 
-      <div className='row'>
+      <div className='row  d-flex justify-content-center'>
         <div className=' nosotros col-xl-12'>
         <p> <strong> Misión: </strong></p>
         <p>En nuestra tortería, nos dedicamos a ofrecer a nuestros clientes una experiencia única y auténtica de la cocina mexicana, a través de la elaboración de las mejores tortas al estilo tradicional. 

@@ -7,7 +7,7 @@ import Landing from './components/landing';
 
 function App() {
   return (
-    <div className='mainContainer'>
+    // <div className='mainContainer'>
     <BrowserRouter>
     <Navbar />
         <Routes>
@@ -18,7 +18,7 @@ function App() {
 
         </Routes>
     </BrowserRouter>
-    </div>
+    // </div>
   );
 }
 
