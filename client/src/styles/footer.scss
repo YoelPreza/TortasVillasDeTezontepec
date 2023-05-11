@@ -4,22 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // height: 500vh;
-    // width: 100vw;
-    // background-color: $Naranja;
+    height: 500vh;
+    width: 100vw;
+    background-color: $Naranja;
     margin-top: 60px;
     text-align:center ;
     font-size: 15px;
     font-family: monospace;
-
+    font-weight: 800;
+    color: $Black;
     position:fixed;
     left:0px;
     bottom:0px;
     height:30px;
     width:100%;
-
     .icon{
         font-size: 15px;
         margin-left: 20px;
+        color: $Black;
     }
 }

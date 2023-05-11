@@ -89,17 +89,17 @@ function Navbar() {
             >
               {/* {pages.map((page) => ( */}
                 <MenuItem  onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" component="a" noWrap href='/Branches' 
+                  <Typography textAlign="center" component="a"  color='black' noWrap href='/Branches' 
                   sx={{textDecoration: 'none',}} > Sucursales </Typography>
                 </MenuItem>
 
                 <MenuItem>
-                <Typography textAlign="center" component="a" noWrap href='/Contact' 
+                <Typography textAlign="center" component="a" color='black' noWrap href='/Contact' 
                   sx={{textDecoration: 'none',}} > Contacto </Typography>
                 </MenuItem>
 
                 <MenuItem>
-                <Typography textAlign="center" component="a" noWrap href='/AboutUs' 
+                <Typography textAlign="center" component="a" color='black' noWrap href='/AboutUs' 
                   sx={{textDecoration: 'none',}} > Nosotros </Typography>
                 </MenuItem>
               {/* ))} */}
@@ -127,7 +127,7 @@ function Navbar() {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' },  justifyContent: 'flex-end' }}>
               <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'black', fontWeight:'600', display: 'block' }}
                 href='/Branches'
               >
                Sucursales
@@ -135,7 +135,7 @@ function Navbar() {
 
               <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'black',  fontWeight:'600', display: 'block' }}
                 href='/Contact'
               >
                Contacto
@@ -143,7 +143,7 @@ function Navbar() {
 
               <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'black',  fontWeight:'600' , display: 'block' }}
                 href='/AboutUs'
               >
                Nosotros

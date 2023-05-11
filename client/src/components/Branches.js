@@ -1,7 +1,6 @@
 import condesa from "../img/condesa.jpg"
 import eugenia from "../img/eugenia.jpg"
 import coyo from "../img/coyoacan.jpg"
-// import Footer from "./Footer"
 const Branches = () => {
   return (
     // <div className="sucursalesContainer">
@@ -54,12 +53,8 @@ const Branches = () => {
             style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
           <p>Avenida Cuauhtémoc, Esquina Avenida Eugenia</p>
-
         </div>
       </div>
-
-
-      {/* <Footer /> */}
     </div>
 
   )

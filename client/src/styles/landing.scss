@@ -48,8 +48,21 @@
     .img {
         width: 300px;
         height: 200px;
-        // margin-top: 40px;
+        float: right;
+        animation: movimiento 2.5s linear infinite;
     }
+
+    @keyframes movimiento {
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(30px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+            }
 
     .container-btn {
         display: flex;
@@ -58,6 +71,18 @@
 
         .btn-contact {
             background-color: $Brown;
+            border: none;
+            border-radius: 10px;
+            width: 200px;
+            height: 30px;
+            color: $White;
+            font-size: 18px;
+            margin-top: 70px;
+
+        }
+
+        .btn-contact:hover {
+            background-color: $Black;
             border: none;
             border-radius: 10px;
             width: 200px;
@@ -127,7 +152,23 @@
             width: 500px;
             height: 280px;
             margin-left: 100px;
+            float: right;
+            animation: movimiento 2.5s linear infinite;
         }
+
+        @keyframes movimiento {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+        }
+
+
 
         .container-btn {
             display: flex;
@@ -144,6 +185,18 @@
                 font-size: 18px;
                 margin-top: 20px;
 
+            }
+
+            .btn-contact:hover {
+                background-color: $Black;
+                border: none;
+                border-radius: 10px;
+                width: 200px;
+                height: 40px;
+                color: $White;
+                font-size: 18px;
+                margin-top: 20px;
+    
             }
 
         }
