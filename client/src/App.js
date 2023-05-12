@@ -4,10 +4,11 @@ import Branches from "./components/Branches";
 import Contact from "./components/Contact";
 import Navbar from './components/Navbar';
 import Landing from './components/landing';
+import Menu from './components/Menu';
+
 
 function App() {
   return (
-    // <div className='mainContainer'>
     <BrowserRouter>
     <Navbar />
         <Routes>
@@ -15,10 +16,10 @@ function App() {
           <Route path='/Branches' element={<Branches />} />
           <Route path='/AboutUs' element={<AboutUs />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Menu" element={<Menu />} />
 
         </Routes>
     </BrowserRouter>
-    // </div>
   );
 }
 

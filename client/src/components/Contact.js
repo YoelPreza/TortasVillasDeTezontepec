@@ -12,7 +12,7 @@ const Contact = () => {
       <div className='phoneContainer'>
         <WhatsAppIcon className='whats'/>  <span>56 1113 1481</span>
       </div>
-      <WhatsAppWidget phoneNumber="+5215611131481" message="Hola quiero una torta" />
+      <WhatsAppWidget className="whatsCirculo"  phoneNumber="+5215611131481" message="Hola quiero una torta" />
     <Footer />
     </div>
   )

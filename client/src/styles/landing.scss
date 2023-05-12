@@ -2,46 +2,38 @@
 
 .mainContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: $Naranja;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
 
-    .fondo {
-        height: 100vh;
-        width: 100vw;
-    }
 }
 
 .container-landing {
-    position: absolute;
-    top: 70px;
-    left: 11px;
-    margin-right: 0px;
-
+    min-height: 100vh;
+    background: url(../img/fondo.png) no-repeat center center fixed;
+    background-size: cover;
+    
     .contentLetras {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        height: 31vh;
         h1 {
             color: $White;
             font-size: 34px;
             font-weight: 500;
             text-align: center;
             width: 80vw;
+            margin-top: 70px;
         }
 
         .ven {
             font-size: 23px;
             color: $Black;
-            margin-top: 40px;
+            margin-top: 20px;
+            margin-bottom: 1rem;
             text-align: center;
             font-weight: 500;
             width: 80vw;
-        
         }
     }
 
@@ -50,19 +42,22 @@
         height: 200px;
         float: right;
         animation: movimiento 2.5s linear infinite;
+        margin-bottom: 20px;
     }
 
     @keyframes movimiento {
-        0%{
+        0% {
             transform: translateY(0);
         }
-        50%{
+
+        50% {
             transform: translateY(30px);
         }
-        100%{
+
+        100% {
             transform: translateY(0);
         }
-            }
+    }
 
     .container-btn {
         display: flex;
@@ -73,78 +68,60 @@
             background-color: $Brown;
             border: none;
             border-radius: 10px;
-            width: 200px;
+            width: 162px;
             height: 30px;
             color: $White;
             font-size: 18px;
-            margin-top: 70px;
+            margin-top: 20px;
+        box-shadow:2px 2px 2px 1px $Black;
 
         }
-
-        .btn-contact:hover {
-            background-color: $Black;
-            border: none;
-            border-radius: 10px;
-            width: 200px;
-            height: 30px;
-            color: $White;
-            font-size: 18px;
-            margin-top: 70px;
-
-        }
-
     }
-
 }
 
 
 
-
-
+//-------------------------------------////
 //-----------------------//-------------///
-@media (min-width: 1199px) { //Desktop
+@media (min-width: 1199px) {
+    //Desktop
     .mainContainer {
-        padding: 0px;
-        margin: 0px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         background-color: $Naranja;
-
-        .fondo {
-            height: 100vh;
-            width: 100vw;
-        }
+        min-height: 100vh;
+        min-width: 100vw;
+        
     }
 
     .container-landing {
-        position: absolute;
-        top: 150px;
-        left: 30px;
-        margin-right: 0px;
+        min-height: 100vh;
+        background: url(../img/fondo.png) no-repeat center center fixed;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        align-content: center;
 
         .contentLetras {
             display: flex;
             flex-direction: column;
             align-items: center;
-        
+            height: 54vh;
             h1 {
                 color: $White;
-                    font-size: 60px;
-                    font-weight: 500;
-                    width: 50vw;
+                font-size: 60px;
+                font-weight: 500;
+                width: 50vw;
             }
-        
+
             .ven {
                 font-size: 30px;
                 color: $Black;
                 margin-top: 40px;
                 width: 50vw;
-            
+
             }
         }
-      
+
 
 
 
@@ -157,15 +134,17 @@
         }
 
         @keyframes movimiento {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(30px);
-    }
-    100%{
-        transform: translateY(0);
-    }
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(30px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
         }
 
 
@@ -184,6 +163,8 @@
                 color: $White;
                 font-size: 18px;
                 margin-top: 20px;
+                display: none;
+
 
             }
 
@@ -196,16 +177,14 @@
                 color: $White;
                 font-size: 18px;
                 margin-top: 20px;
-    
+
             }
 
         }
 
     }
 
-    
-   
+
+
 
 }
-
-
